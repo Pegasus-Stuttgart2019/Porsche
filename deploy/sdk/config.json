@@ -1,0 +1,26 @@
+{
+  "serviceId": "pegasus",
+  "frontendBuildPath": "/application/dist",
+  "icon": "icon-information_outline",
+  "labels": [
+    {
+      "name": "Porsche Flight Advisor",
+      "language": "de_DE"
+    },
+    {
+      "name": "Porsche Flight Advisor",
+      "language": "en_US"
+    },
+    {
+      "name": "Porsche Flight Advisor",
+      "language": "en_GB"
+    }
+  ],
+  "entrypoints": [
+    {
+      "tag": "main",
+      "url": "/#/"
+    }
+  ]
+}
+

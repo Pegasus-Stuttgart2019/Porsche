@@ -1,0 +1,10 @@
+{
+  "ports": [{
+    "port": 8080,
+    "type": "node"
+  },
+  {
+    "port": 9222,
+    "type": "debug"
+  }]
+}
