@@ -1,0 +1,25 @@
+<!--
+<h2>Services:</h2>
+    <meta http-equiv="refresh" content="5" >
+-->
+
+<br>
+<div *ngFor="let article of articles">
+
+  <a [title]="article.description">
+    <h2>{{article.description}}</h2>
+  </a>
+
+
+  <h3>
+    {{article.name}}
+  </h3>
+</div>
+
+
+
+<!--
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+-->
